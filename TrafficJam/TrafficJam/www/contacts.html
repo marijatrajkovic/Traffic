@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-social.css" rel="stylesheet" />
+    <title>TrafficJam</title>
+</head>
+<body id="loadContact">
+    <div class="icon-bar">
+        <a href="home.html"><i class="fa fa-home"></i></a>
+        <a href="search.html"><i class="fa fa-search"></i></a>
+        <a href="post.html"><i class="fa fa-plus-circle"></i></a>
+        <a href="contacts.html"><i class="fa fa-group"></i></a>
+        <a href="profile.html"><i class="fa fa-user-circle"></i></a>
+        <a href="index.html"><i class="fa fa-sign-out"></i></a>
+    </div>
+
+    <table id="tabela">
+        <tr id="row">
+            <td>Kontakti</td>
+        </tr>   
+    </table>
+  
+    <button id="createContact">ADD CONTACT</button>
+   
+    <button id="deleteContact">DELETE CONTACT</button>
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/contacts.js"></script>
+</body>
+</html>
